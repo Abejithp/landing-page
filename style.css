@@ -115,6 +115,7 @@ body{
 .house.image{
     width: 500px;
     height: auto;
+    border-radius: 15px;
 }
 
 
@@ -173,3 +174,24 @@ body{
 }
 
 
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 5rem;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: light;
+    font-style: italic;
+
+}
+
+.tag{
+    font-size: 20px;
+    text-align: end;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
