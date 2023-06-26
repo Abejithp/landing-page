@@ -31,7 +31,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    background-color: #646262;
+    background-color: rgb(65, 65, 70);
 }
 
 .header-links .box{
@@ -47,7 +47,7 @@ body{
 .container .taskbar{
     display: flex;
     flex-direction: row;
-    background-color: #646262;
+    background-color: rgb(65, 65, 70);
     height:fit-content;
 
     justify-content: space-between;
@@ -94,7 +94,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #646262;
+    background-color: rgb(65, 65, 70);
     padding: 3rem;
     padding-left: 10%;
     padding-right: 10%;
@@ -178,8 +178,8 @@ body{
 .quote-section{
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 22%;
+    padding-right: 22%;
     margin: 5rem;
     flex-wrap: wrap;
     font-size: 40px;
@@ -193,5 +193,63 @@ body{
     text-align: end;
     font-weight: bold;
     margin-top: 15px;
+}
 
+.action-section{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.action-box{
+    display: flex;
+    background-color: rgb(78, 54, 212);
+    border-radius: 6px;
+    height: 100px;
+    width:50%;
+
+    color: white;
+    gap: 7rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.action-box .text{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    justify-content: center;
+    padding: 10px;
+}
+
+.text .action-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-signup{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    color: white;
+    background-color: rgb(78, 54, 212);
+    border: 3px solid white;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
